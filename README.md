@@ -14,6 +14,42 @@ This project provides modular UI components that can be reused across multiple R
 
 ---
 
+# 📦 Installation
+
+Install the library from npm:
+
+```bash
+npm install @lauraadan/react-component-library
+```
+
+or
+
+```bash
+yarn add @lauraadan/react-component-library
+```
+
+---
+
+# 🚀 Usage
+
+Example usage in a React project:
+
+```tsx
+import { Button } from "@lauraadan/react-component-library";
+
+function App() {
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  );
+}
+
+export default App;
+```
+
+---
+
 # 📦 Components
 
 The library currently includes the following components:
@@ -109,8 +145,8 @@ Tests are written using:
 Example test:
 
 ```ts
-render(<Button>Click me</Button>)
-expect(screen.getByRole("button")).toBeInTheDocument()
+render(<Button>Click me</Button>);
+expect(screen.getByRole("button")).toBeInTheDocument();
 ```
 
 ---
@@ -183,3 +219,11 @@ npm run lint
 - ESLint
 
 ---
+
+# 🔗 Links
+
+- GitHub repository
+  https://github.com/lauraadan/react-component-library
+
+- npm package
+  https://www.npmjs.com/package/@lauraadan/react-component-library
