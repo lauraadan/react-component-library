@@ -3,7 +3,15 @@
 A reusable **React component library** built with **Vite, TypeScript, Vitest, and Storybook**.
 This project provides modular UI components that can be reused across multiple React applications.
 
-## ✨ Features
+![React](https://img.shields.io/badge/React-18-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Vite](https://img.shields.io/badge/Vite-fast-purple)
+![Vitest](https://img.shields.io/badge/tests-vitest-green)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+---
+
+# ✨ Features
 
 - ⚛️ **React** components written in TypeScript
 - ⚡ **Vite** for fast development and bundling
@@ -47,6 +55,31 @@ function App() {
 
 export default App;
 ```
+
+---
+
+# 📚 Storybook
+
+Explore the components visually using Storybook.
+
+Run locally:
+
+```bash
+npm run storybook
+```
+
+Or view the **online documentation**:
+
+```
+https://lauraadan.github.io/react-component-library
+```
+
+Storybook allows you to:
+
+- view component variations
+- test UI states
+- document props
+- check accessibility
 
 ---
 
@@ -102,23 +135,6 @@ Run the development environment:
 ```bash
 npm run dev
 ```
-
----
-
-# 📚 Storybook
-
-Run Storybook to explore and test components visually:
-
-```bash
-npm run storybook
-```
-
-Storybook allows you to:
-
-- view component variations
-- test UI states
-- document props
-- check accessibility
 
 ---
 
@@ -222,8 +238,11 @@ npm run lint
 
 # 🔗 Links
 
-- GitHub repository
-  https://github.com/lauraadan/react-component-library
+GitHub repository
+https://github.com/lauraadan/react-component-library
 
-- npm package
-  https://www.npmjs.com/package/@lauraadan/react-component-library
+npm package
+https://www.npmjs.com/package/@lauraadan/react-component-library
+
+Storybook documentation
+https://lauraadan.github.io/react-component-library
