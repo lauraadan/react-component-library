@@ -43,4 +43,14 @@ describe("Card", () => {
 
     expect(image).not.toBeInTheDocument();
   });
+
+  it("renders children content", () => {
+    render(
+      <Card>
+        <button>Action</button>
+      </Card>,
+    );
+
+    expect(screen.getByText("Action")).toBeInTheDocument();
+  });
 });
