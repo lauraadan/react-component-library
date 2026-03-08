@@ -45,8 +45,6 @@
     "@vitest/coverage-v8": "^4.0.18",
     "clsx": "^2.1.1",
     "eslint": "^9.39.4",
-    "react": "^18 || ^19",
-    "react-dom": "^18 || ^19",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jest-dom": "^5.5.0",
     "eslint-plugin-react": "^7.37.5",
@@ -66,8 +64,8 @@
     "vitest": "^4.0.18"
   },
   "peerDependencies": {
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19"
   },
   "overrides": {
     "react-is": "^18.3.1"
