@@ -43,7 +43,7 @@ yarn add @lauraadan/react-component-library
 Example usage in a React project:
 
 ```tsx
-import { Button } from "@lauraadan/react-component-library";
+import { Button } from '@lauraadan/react-component-library';
 
 function App() {
   return (
@@ -193,7 +193,7 @@ The project includes a `ThemeProvider` to apply consistent styling across compon
 Example usage:
 
 ```tsx
-import { ThemeProvider } from "@/theme/ThemeProvider";
+import { ThemeProvider } from '@/theme/ThemeProvider';
 
 <ThemeProvider>
   <App />
@@ -246,3 +246,9 @@ https://www.npmjs.com/package/@lauraadan/react-component-library
 
 Storybook documentation
 https://lauraadan.github.io/react-component-library
+
+## Demo
+
+Example usage:
+
+https://github.com/lauraadan/react-component-library-demo
